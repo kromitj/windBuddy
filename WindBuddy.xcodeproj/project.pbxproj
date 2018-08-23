@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9611478C212F71020038C692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9611478B212F71020038C692 /* AppDelegate.swift */; };
+		9611478E212F71020038C692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9611478D212F71020038C692 /* ViewController.swift */; };
+		96114790212F71020038C692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9611478F212F71020038C692 /* Assets.xcassets */; };
+		96114793212F71020038C692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96114791212F71020038C692 /* Main.storyboard */; };
+		9611479F212F71020038C692 /* WindBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9611479E212F71020038C692 /* WindBuddyTests.swift */; };
+		961147AA212F71020038C692 /* WindBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961147A9212F71020038C692 /* WindBuddyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9611479B212F71020038C692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96114780212F71020038C692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96114787212F71020038C692;
+			remoteInfo = WindBuddy;
+		};
+		961147A6212F71020038C692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96114780212F71020038C692 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96114787212F71020038C692;
+			remoteInfo = WindBuddy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96114788212F71020038C692 /* WindBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WindBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9611478B212F71020038C692 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9611478D212F71020038C692 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9611478F212F71020038C692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96114792212F71020038C692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96114794212F71020038C692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96114795212F71020038C692 /* WindBuddy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WindBuddy.entitlements; sourceTree = "<group>"; };
+		9611479A212F71020038C692 /* WindBuddyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindBuddyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9611479E212F71020038C692 /* WindBuddyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindBuddyTests.swift; sourceTree = "<group>"; };
+		961147A0212F71020038C692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961147A5212F71020038C692 /* WindBuddyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WindBuddyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		961147A9212F71020038C692 /* WindBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindBuddyUITests.swift; sourceTree = "<group>"; };
+		961147AB212F71020038C692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96114785212F71020038C692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96114797212F71020038C692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961147A2212F71020038C692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9611477F212F71020038C692 = {
+			isa = PBXGroup;
+			children = (
+				9611478A212F71020038C692 /* WindBuddy */,
+				9611479D212F71020038C692 /* WindBuddyTests */,
+				961147A8212F71020038C692 /* WindBuddyUITests */,
+				96114789212F71020038C692 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96114789212F71020038C692 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96114788212F71020038C692 /* WindBuddy.app */,
+				9611479A212F71020038C692 /* WindBuddyTests.xctest */,
+				961147A5212F71020038C692 /* WindBuddyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9611478A212F71020038C692 /* WindBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				9611478B212F71020038C692 /* AppDelegate.swift */,
+				9611478D212F71020038C692 /* ViewController.swift */,
+				9611478F212F71020038C692 /* Assets.xcassets */,
+				96114791212F71020038C692 /* Main.storyboard */,
+				96114794212F71020038C692 /* Info.plist */,
+				96114795212F71020038C692 /* WindBuddy.entitlements */,
+			);
+			path = WindBuddy;
+			sourceTree = "<group>";
+		};
+		9611479D212F71020038C692 /* WindBuddyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9611479E212F71020038C692 /* WindBuddyTests.swift */,
+				961147A0212F71020038C692 /* Info.plist */,
+			);
+			path = WindBuddyTests;
+			sourceTree = "<group>";
+		};
+		961147A8212F71020038C692 /* WindBuddyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				961147A9212F71020038C692 /* WindBuddyUITests.swift */,
+				961147AB212F71020038C692 /* Info.plist */,
+			);
+			path = WindBuddyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96114787212F71020038C692 /* WindBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961147AE212F71020038C692 /* Build configuration list for PBXNativeTarget "WindBuddy" */;
+			buildPhases = (
+				96114784212F71020038C692 /* Sources */,
+				96114785212F71020038C692 /* Frameworks */,
+				96114786212F71020038C692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WindBuddy;
+			productName = WindBuddy;
+			productReference = 96114788212F71020038C692 /* WindBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96114799212F71020038C692 /* WindBuddyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961147B1212F71020038C692 /* Build configuration list for PBXNativeTarget "WindBuddyTests" */;
+			buildPhases = (
+				96114796212F71020038C692 /* Sources */,
+				96114797212F71020038C692 /* Frameworks */,
+				96114798212F71020038C692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9611479C212F71020038C692 /* PBXTargetDependency */,
+			);
+			name = WindBuddyTests;
+			productName = WindBuddyTests;
+			productReference = 9611479A212F71020038C692 /* WindBuddyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		961147A4212F71020038C692 /* WindBuddyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 961147B4212F71020038C692 /* Build configuration list for PBXNativeTarget "WindBuddyUITests" */;
+			buildPhases = (
+				961147A1212F71020038C692 /* Sources */,
+				961147A2212F71020038C692 /* Frameworks */,
+				961147A3212F71020038C692 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				961147A7212F71020038C692 /* PBXTargetDependency */,
+			);
+			name = WindBuddyUITests;
+			productName = WindBuddyUITests;
+			productReference = 961147A5212F71020038C692 /* WindBuddyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96114780212F71020038C692 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Mitch Kroska";
+				TargetAttributes = {
+					96114787212F71020038C692 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					96114799212F71020038C692 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96114787212F71020038C692;
+					};
+					961147A4212F71020038C692 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 96114787212F71020038C692;
+					};
+				};
+			};
+			buildConfigurationList = 96114783212F71020038C692 /* Build configuration list for PBXProject "WindBuddy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9611477F212F71020038C692;
+			productRefGroup = 96114789212F71020038C692 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96114787212F71020038C692 /* WindBuddy */,
+				96114799212F71020038C692 /* WindBuddyTests */,
+				961147A4212F71020038C692 /* WindBuddyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96114786212F71020038C692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96114790212F71020038C692 /* Assets.xcassets in Resources */,
+				96114793212F71020038C692 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96114798212F71020038C692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961147A3212F71020038C692 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96114784212F71020038C692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9611478E212F71020038C692 /* ViewController.swift in Sources */,
+				9611478C212F71020038C692 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96114796212F71020038C692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9611479F212F71020038C692 /* WindBuddyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961147A1212F71020038C692 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961147AA212F71020038C692 /* WindBuddyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9611479C212F71020038C692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96114787212F71020038C692 /* WindBuddy */;
+			targetProxy = 9611479B212F71020038C692 /* PBXContainerItemProxy */;
+		};
+		961147A7212F71020038C692 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96114787212F71020038C692 /* WindBuddy */;
+			targetProxy = 961147A6212F71020038C692 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96114791212F71020038C692 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96114792212F71020038C692 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		961147AC212F71020038C692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		961147AD212F71020038C692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		961147AF212F71020038C692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WindBuddy/WindBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WindBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kromitj.WindBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		961147B0212F71020038C692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WindBuddy/WindBuddy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WindBuddy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kromitj.WindBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		961147B2212F71020038C692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WindBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kromitj.WindBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindBuddy.app/Contents/MacOS/WindBuddy";
+			};
+			name = Debug;
+		};
+		961147B3212F71020038C692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WindBuddyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kromitj.WindBuddyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WindBuddy.app/Contents/MacOS/WindBuddy";
+			};
+			name = Release;
+		};
+		961147B5212F71020038C692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WindBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kromitj.WindBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = WindBuddy;
+			};
+			name = Debug;
+		};
+		961147B6212F71020038C692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = WindBuddyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kromitj.WindBuddyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = WindBuddy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96114783212F71020038C692 /* Build configuration list for PBXProject "WindBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961147AC212F71020038C692 /* Debug */,
+				961147AD212F71020038C692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		961147AE212F71020038C692 /* Build configuration list for PBXNativeTarget "WindBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961147AF212F71020038C692 /* Debug */,
+				961147B0212F71020038C692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		961147B1212F71020038C692 /* Build configuration list for PBXNativeTarget "WindBuddyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961147B2212F71020038C692 /* Debug */,
+				961147B3212F71020038C692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		961147B4212F71020038C692 /* Build configuration list for PBXNativeTarget "WindBuddyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				961147B5212F71020038C692 /* Debug */,
+				961147B6212F71020038C692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96114780212F71020038C692 /* Project object */;
+}
