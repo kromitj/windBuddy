@@ -1,0 +1,6 @@
+framework module Pods_WindBuddyTests {
+  umbrella header "Pods-WindBuddyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
