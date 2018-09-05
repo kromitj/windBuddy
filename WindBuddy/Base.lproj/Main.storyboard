@@ -12,50 +12,6 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="WindBuddy" id="1Xt-HY-uBw">
-                                <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="WindBuddy" systemMenu="apple" id="uQy-DD-JDr">
-                                    <items>
-                                        <menuItem title="About WindBuddy" id="5kV-Vb-QxS">
-                                            <modifierMask key="keyEquivalentModifierMask"/>
-                                            <connections>
-                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
-                                            </connections>
-                                        </menuItem>
-                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
-                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
-                                        <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
-                                        <menuItem title="Services" id="NMo-om-nkz">
-                                            <modifierMask key="keyEquivalentModifierMask"/>
-                                            <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
-                                        </menuItem>
-                                        <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide WindBuddy" keyEquivalent="h" id="Olw-nP-bQN">
-                                            <connections>
-                                                <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
-                                            </connections>
-                                        </menuItem>
-                                        <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
-                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
-                                            <connections>
-                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
-                                            </connections>
-                                        </menuItem>
-                                        <menuItem title="Show All" id="Kd2-mp-pUS">
-                                            <modifierMask key="keyEquivalentModifierMask"/>
-                                            <connections>
-                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
-                                            </connections>
-                                        </menuItem>
-                                        <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit WindBuddy" keyEquivalent="q" id="4sb-4s-VLi">
-                                            <connections>
-                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
-                                            </connections>
-                                        </menuItem>
-                                    </items>
-                                </menu>
-                            </menuItem>
                             <menuItem title="File" id="dMs-cI-mzQ">
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="File" id="bib-Uj-vzu">
@@ -678,8 +634,52 @@
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="WindBuddy" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <menuItem title="WindBuddy" id="1Xt-HY-uBw">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <menu key="submenu" title="WindBuddy" systemMenu="apple" id="uQy-DD-JDr">
+                        <items>
+                            <menuItem title="About WindBuddy" id="5kV-Vb-QxS">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                            <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
+                            <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
+                            <menuItem title="Services" id="NMo-om-nkz">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
+                            <menuItem title="Hide WindBuddy" keyEquivalent="h" id="Olw-nP-bQN">
+                                <connections>
+                                    <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                <connections>
+                                    <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem title="Show All" id="Kd2-mp-pUS">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <connections>
+                                    <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
+                                </connections>
+                            </menuItem>
+                            <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                            <menuItem title="Quit WindBuddy" keyEquivalent="q" id="4sb-4s-VLi">
+                                <connections>
+                                    <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                </connections>
+                            </menuItem>
+                        </items>
+                    </menu>
+                </menuItem>
             </objects>
-            <point key="canvasLocation" x="75" y="0.0"/>
+            <point key="canvasLocation" x="-41" y="-96"/>
         </scene>
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
@@ -690,11 +690,175 @@
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <toolbar key="toolbar" implicitIdentifier="B3299D93-FF1A-4E9C-AE0D-C21778583EF9" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="BKo-dh-8nG">
+                            <allowedToolbarItems>
+                                <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="SGo-9x-s2J"/>
+                                <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="2iI-8j-mAD"/>
+                                <toolbarItem implicitItemIdentifier="4328B2A7-F1D6-4CDE-A589-C2C95C27490C" label="Port" paletteLabel="Port" id="5G4-58-sdl">
+                                    <nil key="toolTip"/>
+                                    <size key="minSize" width="82" height="32"/>
+                                    <size key="maxSize" width="82" height="32"/>
+                                    <button key="view" verticalHuggingPriority="750" id="cBc-ED-8us">
+                                        <rect key="frame" x="0.0" y="14" width="82" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Open" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="npF-yE-JrH">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                            <connections>
+                                                <action selector="openOrClosePort:" target="B8D-0N-5wS" id="JxR-64-mug"/>
+                                            </connections>
+                                        </buttonCell>
+                                    </button>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="3D3B63B7-D0FF-47CC-AE41-DC6DB15DB10A" label="Baud Rate" paletteLabel="Baud Rate" id="VXH-NB-fq1">
+                                    <nil key="toolTip"/>
+                                    <size key="minSize" width="100" height="28"/>
+                                    <size key="maxSize" width="100" height="28"/>
+                                    <popUpButton key="view" verticalHuggingPriority="750" id="2U4-92-eoi">
+                                        <rect key="frame" x="0.0" y="14" width="100" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <popUpButtonCell key="cell" type="roundTextured" title="Item 1" bezelStyle="texturedRounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" selectedItem="LRa-J0-ijX" id="uXU-Z3-nRS">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="menu"/>
+                                            <menu key="menu" id="ir3-E4-X1i">
+                                                <items>
+                                                    <menuItem title="Item 1" state="on" id="LRa-J0-ijX"/>
+                                                    <menuItem title="Item 2" id="s4q-w5-Ff3"/>
+                                                    <menuItem title="Item 3" id="EfE-kr-iBF"/>
+                                                </items>
+                                            </menu>
+                                        </popUpButtonCell>
+                                        <connections>
+                                            <binding destination="B8D-0N-5wS" name="contentValues" keyPath="availableBaudRates" id="jFK-eg-oIk"/>
+                                            <binding destination="B8D-0N-5wS" name="selectedObject" keyPath="serialPort.baudRate" previousBinding="jFK-eg-oIk" id="Hzw-9f-o1x"/>
+                                        </connections>
+                                    </popUpButton>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="CBA7A08D-72F8-44DE-8E57-4E82ADCF7ED1" label="Serial Ports" paletteLabel="Serial Ports" id="lEp-Io-ENN">
+                                    <nil key="toolTip"/>
+                                    <size key="minSize" width="100" height="28"/>
+                                    <size key="maxSize" width="100" height="28"/>
+                                    <popUpButton key="view" verticalHuggingPriority="750" id="UWQ-xW-7r8">
+                                        <rect key="frame" x="0.0" y="14" width="100" height="28"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <popUpButtonCell key="cell" type="roundTextured" title="Item 1" bezelStyle="texturedRounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" selectedItem="pFC-nO-qjr" id="VUr-jv-zbx">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="menu"/>
+                                            <menu key="menu" id="5CN-AN-z9n">
+                                                <items>
+                                                    <menuItem title="Item 1" state="on" id="pFC-nO-qjr"/>
+                                                    <menuItem title="Item 2" id="cf5-uS-HcU"/>
+                                                    <menuItem title="Item 3" id="MCf-pZ-F1R"/>
+                                                </items>
+                                            </menu>
+                                        </popUpButtonCell>
+                                        <connections>
+                                            <binding destination="B8D-0N-5wS" name="selectedObject" keyPath="serialPort" previousBinding="HQO-0R-kUb" id="NdM-x8-V1Y"/>
+                                            <binding destination="B8D-0N-5wS" name="content" keyPath="serialPortManager.availablePorts" id="9Dk-sf-5YK"/>
+                                            <binding destination="B8D-0N-5wS" name="contentValues" keyPath="serialPortManager.availablePorts.name" previousBinding="9Dk-sf-5YK" id="HQO-0R-kUb"/>
+                                        </connections>
+                                    </popUpButton>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="DD452BAE-5F26-4866-9EB6-4F2ACA8DF60E" label="Connection" paletteLabel="Connection" id="1KG-gj-Cwm">
+                                    <nil key="toolTip"/>
+                                    <size key="minSize" width="82" height="32"/>
+                                    <size key="maxSize" width="82" height="32"/>
+                                    <button key="view" verticalHuggingPriority="750" id="uYU-CK-fHf">
+                                        <rect key="frame" x="0.0" y="14" width="82" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Test" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="RzE-YZ-uEJ">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                    </button>
+                                    <connections>
+                                        <action selector="testConnection:" target="B8D-0N-5wS" id="Vz0-KO-Vzm"/>
+                                    </connections>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="52272803-9746-4A4D-80C9-CFED0C292B5E" label="w/ Hardware" paletteLabel="w/ Hardware" id="TH3-2u-Afv">
+                                    <nil key="toolTip"/>
+                                    <size key="minSize" width="82" height="32"/>
+                                    <size key="maxSize" width="82" height="32"/>
+                                    <button key="view" verticalHuggingPriority="750" id="znJ-IM-SBg">
+                                        <rect key="frame" x="0.0" y="14" width="82" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Sync" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="xh2-WF-fVQ">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="syncWindingWithHardware:" target="B8D-0N-5wS" id="F8c-PD-Lrd"/>
+                                        </connections>
+                                    </button>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="82A74D22-F6AF-442F-A7DF-DDE5900EF7DF" label="Winding" paletteLabel="Winding" id="ICi-eo-Gsz">
+                                    <nil key="toolTip"/>
+                                    <size key="minSize" width="82" height="32"/>
+                                    <size key="maxSize" width="82" height="32"/>
+                                    <button key="view" verticalHuggingPriority="750" id="C3J-kY-rnG">
+                                        <rect key="frame" x="0.0" y="14" width="82" height="32"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="SO0-zN-7ou">
+                                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                            <font key="font" metaFont="system"/>
+                                        </buttonCell>
+                                        <connections>
+                                            <action selector="startWinding:" target="B8D-0N-5wS" id="1NS-Ta-W1t"/>
+                                        </connections>
+                                    </button>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="E45B6C44-9424-4F87-91EF-1FA92E167935" label="P" paletteLabel="P" id="zpP-uH-HwS">
+                                    <nil key="toolTip"/>
+                                    <size key="minSize" width="18" height="18"/>
+                                    <size key="maxSize" width="25" height="18"/>
+                                    <levelIndicator key="view" verticalHuggingPriority="750" id="JSw-FI-CZ5">
+                                        <rect key="frame" x="0.0" y="14" width="25" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <levelIndicatorCell key="cell" alignment="left" maxValue="1" warningValue="1" criticalValue="2" id="6MG-cZ-BGj"/>
+                                    </levelIndicator>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="BA5CDFFD-1E16-438D-A4C0-AC64230FC502" label="C" paletteLabel="C" id="W5x-A5-ZJ3">
+                                    <nil key="toolTip"/>
+                                    <size key="minSize" width="24" height="18"/>
+                                    <size key="maxSize" width="26" height="18"/>
+                                    <levelIndicator key="view" verticalHuggingPriority="750" id="IOT-1g-efp">
+                                        <rect key="frame" x="0.0" y="14" width="26" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <levelIndicatorCell key="cell" alignment="left" maxValue="1" warningValue="1" criticalValue="2" id="Ige-Vb-DmO"/>
+                                    </levelIndicator>
+                                </toolbarItem>
+                                <toolbarItem implicitItemIdentifier="70A36093-6D76-4F19-8DED-FADC88302A14" label="S" paletteLabel="S" id="8Re-Cg-JrI">
+                                    <nil key="toolTip"/>
+                                    <size key="minSize" width="23" height="18"/>
+                                    <size key="maxSize" width="28" height="18"/>
+                                    <levelIndicator key="view" verticalHuggingPriority="750" id="6Jv-Vw-Ka0">
+                                        <rect key="frame" x="0.0" y="14" width="28" height="18"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <levelIndicatorCell key="cell" alignment="left" maxValue="1" warningValue="1" criticalValue="2" id="Zvt-SB-GJ7"/>
+                                    </levelIndicator>
+                                </toolbarItem>
+                            </allowedToolbarItems>
+                            <defaultToolbarItems>
+                                <toolbarItem reference="lEp-Io-ENN"/>
+                                <toolbarItem reference="VXH-NB-fq1"/>
+                                <toolbarItem reference="5G4-58-sdl"/>
+                                <toolbarItem reference="1KG-gj-Cwm"/>
+                                <toolbarItem reference="TH3-2u-Afv"/>
+                                <toolbarItem reference="ICi-eo-Gsz"/>
+                                <toolbarItem reference="2iI-8j-mAD"/>
+                                <toolbarItem reference="zpP-uH-HwS"/>
+                                <toolbarItem reference="W5x-A5-ZJ3"/>
+                                <toolbarItem reference="8Re-Cg-JrI"/>
+                            </defaultToolbarItems>
+                        </toolbar>
                         <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
                         </connections>
                     </window>
                     <connections>
+                        <outlet property="compiledIndicator" destination="IOT-1g-efp" id="5mr-u4-6fn"/>
+                        <outlet property="openCloseButton" destination="cBc-ED-8us" id="Lk9-yJ-Vqn"/>
+                        <outlet property="portConnectionIndicator" destination="JSw-FI-CZ5" id="Eyn-SI-14K"/>
                         <segue destination="bJu-AN-eAf" kind="relationship" relationship="window.shadowedContentViewController" id="P7K-QT-b1e"/>
                     </connections>
                 </windowController>
@@ -880,6 +1044,17 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
+                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MOd-le-4nA">
+                                <rect key="frame" x="195" y="624" width="90" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <buttonCell key="cell" type="push" title="Compile" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="XVf-Vx-Klp">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="compileWind:" target="Baq-1Y-MEf" id="S3G-6P-TL2"/>
+                                </connections>
+                            </button>
                             <segmentedControl verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AmD-lf-ZaZ">
                                 <rect key="frame" x="242" y="463" width="100" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -891,75 +1066,14 @@
                                     </segments>
                                 </segmentedCell>
                             </segmentedControl>
-                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oSv-NG-ZPK">
-                                <rect key="frame" x="237" y="631" width="78" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <popUpButtonCell key="cell" type="push" title="230400" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="QIv-HY-bKo" id="7eO-rl-tG4">
-                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="menu"/>
-                                    <menu key="menu" title="OtherViews" id="rH1-Er-Cs7">
-                                        <items>
-                                            <menuItem title="57600" id="8QN-dE-CsA"/>
-                                            <menuItem title="76800" id="Yey-Vl-QVb"/>
-                                            <menuItem title="115200" id="qPz-W5-SHB"/>
-                                            <menuItem title="230400" state="on" id="QIv-HY-bKo"/>
-                                        </items>
-                                    </menu>
-                                </popUpButtonCell>
-                            </popUpButton>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C1N-dm-dvt">
-                                <rect key="frame" x="18" y="636" width="68" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Serial Port" id="4YW-Zs-pQU">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XKl-K5-rBS">
-                                <rect key="frame" x="167" y="636" width="66" height="17"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="right" title="Baud Rate" id="PWk-hX-Xjz">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NqU-bF-XQK">
-                                <rect key="frame" x="314" y="627" width="73" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Open" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="rQj-SZ-ZMO">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ub3-6A-yhF">
-                                <rect key="frame" x="88" y="631" width="76" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <popUpButtonCell key="cell" type="push" title="Item 1" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="5qt-9R-qXs" id="SGV-aC-n6y">
-                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="menu"/>
-                                    <menu key="menu" title="OtherViews" id="zrw-hD-duv">
-                                        <items>
-                                            <menuItem title="Item 1" state="on" id="5qt-9R-qXs"/>
-                                            <menuItem title="Item 2" id="wsv-kh-uHa"/>
-                                            <menuItem title="Item 3" id="UEK-VL-cwl"/>
-                                        </items>
-                                    </menu>
-                                </popUpButtonCell>
-                            </popUpButton>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JPU-jz-KVc">
-                                <rect key="frame" x="387" y="627" width="64" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="test" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="qDe-bE-6qz">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
                         </subviews>
                     </view>
                     <connections>
                         <outlet property="bobbinHeight" destination="aa1-tj-Y18" id="P3z-Vp-fZV"/>
+                        <outlet property="intervals" destination="2P9-bx-k6E" id="OjE-E8-j1N"/>
+                        <outlet property="windCount" destination="d2l-Go-g8r" id="hzB-Nf-uah"/>
+                        <outlet property="windDirection" destination="AmD-lf-ZaZ" id="CtD-Rb-GW8"/>
+                        <outlet property="wireThickness" destination="aVg-ps-pA8" id="aab-cf-rFt"/>
                     </connections>
                 </viewController>
                 <customObject id="Wae-LJ-KVw" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -1071,6 +1185,9 @@
                                                                         <font key="font" metaFont="system"/>
                                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                                                                        <connections>
+                                                                            <binding destination="3rx-M0-p2f" name="value" keyPath="objectValue" id="n29-Ju-Vf3"/>
+                                                                        </connections>
                                                                     </textFieldCell>
                                                                 </textField>
                                                             </subviews>
@@ -1114,6 +1231,9 @@
                                                     </prototypeCellViews>
                                                 </tableColumn>
                                             </tableColumns>
+                                            <connections>
+                                                <outlet property="dataSource" destination="fAs-hE-cBv" id="S5I-9l-rtH"/>
+                                            </connections>
                                         </tableView>
                                     </subviews>
                                 </clipView>
@@ -1158,7 +1278,7 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <scrollView wantsLayer="YES" fixedFrame="YES" borderType="groove" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhT-gx-3QD">
+                            <scrollView wantsLayer="YES" fixedFrame="YES" borderType="groove" autohidesScrollers="YES" horizontalLineScroll="19" horizontalPageScroll="10" verticalLineScroll="19" verticalPageScroll="10" hasHorizontalScroller="NO" hasVerticalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xhT-gx-3QD">
                                 <rect key="frame" x="90" y="82" width="286" height="165"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <clipView key="contentView" ambiguous="YES" id="zLN-R0-Qtw">
@@ -1166,14 +1286,14 @@
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" columnSelection="YES" multipleSelection="NO" autosaveColumns="NO" rowSizeStyle="automatic" headerView="3SO-y5-PRk" viewBased="YES" id="KTb-WX-L4F">
-                                            <rect key="frame" x="0.0" y="0.0" width="282" height="138"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="286" height="138"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <size key="intercellSpacing" width="3" height="2"/>
                                             <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                             <color key="gridColor" name="gridColor" catalog="System" colorSpace="catalog"/>
                                             <tableColumns>
-                                                <tableColumn width="165.5" minWidth="40" maxWidth="1000" id="vB2-OR-RCd">
-                                                    <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Property">
+                                                <tableColumn width="167.5" minWidth="40" maxWidth="1000" id="vB2-OR-RCd">
+                                                    <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
                                                         <font key="font" metaFont="smallSystem"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1186,17 +1306,20 @@
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView id="CvV-kY-CBX">
-                                                            <rect key="frame" x="1" y="1" width="165" height="17"/>
+                                                            <rect key="frame" x="1" y="1" width="167.5" height="17"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4P1-SD-a5M">
-                                                                    <rect key="frame" x="2" y="0.0" width="161" height="17"/>
+                                                                    <rect key="frame" x="2" y="0.0" width="163.5" height="17"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="rotationsPerRow" placeholderString="rotationsPerRow" drawsBackground="YES" id="Iuw-AO-rRL">
                                                                         <font key="font" metaFont="system"/>
                                                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                     </textFieldCell>
+                                                                    <connections>
+                                                                        <binding destination="CvV-kY-CBX" name="value" keyPath="objectValue" id="WKb-8f-jih"/>
+                                                                    </connections>
                                                                 </textField>
                                                             </subviews>
                                                             <connections>
@@ -1205,8 +1328,8 @@
                                                         </tableCellView>
                                                     </prototypeCellViews>
                                                 </tableColumn>
-                                                <tableColumn width="110.5" minWidth="40" maxWidth="1000" id="bcF-WF-Yiy">
-                                                    <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border" title="Value">
+                                                <tableColumn width="112.5" minWidth="40" maxWidth="1000" id="bcF-WF-Yiy">
+                                                    <tableHeaderCell key="headerCell" lineBreakMode="truncatingTail" borderStyle="border">
                                                         <font key="font" metaFont="smallSystem"/>
                                                         <color key="textColor" name="headerTextColor" catalog="System" colorSpace="catalog"/>
                                                         <color key="backgroundColor" name="headerColor" catalog="System" colorSpace="catalog"/>
@@ -1219,11 +1342,11 @@
                                                     <tableColumnResizingMask key="resizingMask" resizeWithTable="YES" userResizable="YES"/>
                                                     <prototypeCellViews>
                                                         <tableCellView id="3dW-DV-u7J">
-                                                            <rect key="frame" x="169.5" y="1" width="110" height="17"/>
+                                                            <rect key="frame" x="171.5" y="1" width="112.5" height="17"/>
                                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                             <subviews>
                                                                 <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j3P-DG-Ul2">
-                                                                    <rect key="frame" x="2" y="0.0" width="106" height="17"/>
+                                                                    <rect key="frame" x="2" y="0.0" width="108.5" height="17"/>
                                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="2.35" placeholderString="2.35" drawsBackground="YES" id="2ZJ-kE-47K">
                                                                         <font key="font" metaFont="system"/>
@@ -1239,19 +1362,22 @@
                                                     </prototypeCellViews>
                                                 </tableColumn>
                                             </tableColumns>
+                                            <connections>
+                                                <outlet property="dataSource" destination="LWd-bh-1EJ" id="P2L-eO-IRr"/>
+                                            </connections>
                                         </tableView>
                                     </subviews>
                                 </clipView>
                                 <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="pp4-UE-4sb">
-                                    <rect key="frame" x="2" y="-14" width="0.0" height="16"/>
+                                    <rect key="frame" x="-100" y="-100" width="0.0" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="NO" id="nRT-SN-xRp">
-                                    <rect key="frame" x="224" y="17" width="15" height="102"/>
+                                    <rect key="frame" x="-100" y="-100" width="15" height="102"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <tableHeaderView key="headerView" id="3SO-y5-PRk">
-                                    <rect key="frame" x="0.0" y="0.0" width="282" height="23"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="286" height="23"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableHeaderView>
                             </scrollView>
@@ -1354,30 +1480,6 @@
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aWK-py-jlf">
-                                <rect key="frame" x="14" y="409" width="90" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Compile" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="kU0-pZ-Kvt">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xYN-Qy-Yfs">
-                                <rect key="frame" x="113" y="409" width="70" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Sync" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="PXF-O7-Mv5">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
-                            <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9ry-Ec-BJS">
-                                <rect key="frame" x="183" y="409" width="70" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <buttonCell key="cell" type="push" title="Start" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="d1G-4r-Q20">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="kDL-i7-sOb" secondAttribute="trailing" constant="18" id="45e-aK-rjv"/>

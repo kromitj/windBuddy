@@ -15,10 +15,11 @@
 		9611479F212F71020038C692 /* WindBuddyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9611479E212F71020038C692 /* WindBuddyTests.swift */; };
 		961147AA212F71020038C692 /* WindBuddyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961147A9212F71020038C692 /* WindBuddyUITests.swift */; };
 		962F2DF82130031300A83798 /* ORSSerialPortDemo-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 962F2DF72130031300A83798 /* ORSSerialPortDemo-Bridging-Header.h */; };
+		9667C447213F5FE00002C46C /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9667C446213F5FE00002C46C /* TableCell.swift */; };
+		9667C449213F60950002C46C /* CalculationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9667C448213F60950002C46C /* CalculationTableViewController.swift */; };
 		9668BC4B2130A9940042BE99 /* WindCompiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9668BC4A2130A9940042BE99 /* WindCompiler.swift */; };
 		9668BC4D2130A99F0042BE99 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9668BC4C2130A99F0042BE99 /* Wind.swift */; };
 		9668BC4F2130A9A50042BE99 /* SerialPortDemoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9668BC4E2130A9A50042BE99 /* SerialPortDemoController.swift */; };
-		9668BC512130C1020042BE99 /* WindController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9668BC502130C1020042BE99 /* WindController.swift */; };
 		96CCF369213D21D6002C00A6 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CCF368213D21D6002C00A6 /* WindowController.swift */; };
 		A827EF4C82E296C8830C1556 /* Pods_WindBuddyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C62E35CE1D0D90028BFDA7 /* Pods_WindBuddyTests.framework */; };
 		F86058AA299A2996C0F5B40B /* Pods_WindBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DB02C100C435098403A9AD /* Pods_WindBuddy.framework */; };
@@ -60,10 +61,12 @@
 		961147A9212F71020038C692 /* WindBuddyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindBuddyUITests.swift; sourceTree = "<group>"; };
 		961147AB212F71020038C692 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		962F2DF72130031300A83798 /* ORSSerialPortDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ORSSerialPortDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		9667C446213F5FE00002C46C /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		9667C448213F60950002C46C /* CalculationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationTableViewController.swift; sourceTree = "<group>"; };
+		9667C44F213F8C370002C46C /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		9668BC4A2130A9940042BE99 /* WindCompiler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindCompiler.swift; sourceTree = "<group>"; };
 		9668BC4C2130A99F0042BE99 /* Wind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
 		9668BC4E2130A9A50042BE99 /* SerialPortDemoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerialPortDemoController.swift; sourceTree = "<group>"; };
-		9668BC502130C1020042BE99 /* WindController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindController.swift; sourceTree = "<group>"; };
 		96CCF368213D21D6002C00A6 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WindowController.swift; path = ../../../.Trash/WindowController.swift; sourceTree = "<group>"; };
 		A566E4DB3C25424BC85851B1 /* Pods-WindBuddyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WindBuddyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WindBuddyUITests/Pods-WindBuddyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A5C62E35CE1D0D90028BFDA7 /* Pods_WindBuddyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WindBuddyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,18 +141,15 @@
 		9611478A212F71020038C692 /* WindBuddy */ = {
 			isa = PBXGroup;
 			children = (
-				9611478B212F71020038C692 /* AppDelegate.swift */,
-				9611478D212F71020038C692 /* ViewController.swift */,
-				9611478F212F71020038C692 /* Assets.xcassets */,
-				96114791212F71020038C692 /* Main.storyboard */,
-				9668BC4C2130A99F0042BE99 /* Wind.swift */,
-				9668BC4E2130A9A50042BE99 /* SerialPortDemoController.swift */,
-				9668BC4A2130A9940042BE99 /* WindCompiler.swift */,
-				96CCF368213D21D6002C00A6 /* WindowController.swift */,
-				96114794212F71020038C692 /* Info.plist */,
 				96114795212F71020038C692 /* WindBuddy.entitlements */,
+				96114794212F71020038C692 /* Info.plist */,
 				962F2DF72130031300A83798 /* ORSSerialPortDemo-Bridging-Header.h */,
-				9668BC502130C1020042BE99 /* WindController.swift */,
+				9611478B212F71020038C692 /* AppDelegate.swift */,
+				96114791212F71020038C692 /* Main.storyboard */,
+				9667C44D213F8BC60002C46C /* Models */,
+				9667C44E213F8C360002C46C /* Controllers */,
+				9611478F212F71020038C692 /* Assets.xcassets */,
+				96CCF368213D21D6002C00A6 /* WindowController.swift */,
 			);
 			path = WindBuddy;
 			sourceTree = "<group>";
@@ -170,6 +170,27 @@
 				961147AB212F71020038C692 /* Info.plist */,
 			);
 			path = WindBuddyUITests;
+			sourceTree = "<group>";
+		};
+		9667C44D213F8BC60002C46C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9668BC4A2130A9940042BE99 /* WindCompiler.swift */,
+				9668BC4C2130A99F0042BE99 /* Wind.swift */,
+				9667C446213F5FE00002C46C /* TableCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9667C44E213F8C360002C46C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9611478D212F71020038C692 /* ViewController.swift */,
+				9668BC4E2130A9A50042BE99 /* SerialPortDemoController.swift */,
+				9667C44F213F8C370002C46C /* WindowController.swift */,
+				9667C448213F60950002C46C /* CalculationTableViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		D00D07DA66D5EFD711ED2B79 /* Frameworks */ = {
@@ -394,14 +415,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9667C447213F5FE00002C46C /* TableCell.swift in Sources */,
 				9611478E212F71020038C692 /* ViewController.swift in Sources */,
-				9668BC512130C1020042BE99 /* WindController.swift in Sources */,
 				9668BC4D2130A99F0042BE99 /* Wind.swift in Sources */,
 				9611478C212F71020038C692 /* AppDelegate.swift in Sources */,
 				9668BC4B2130A9940042BE99 /* WindCompiler.swift in Sources */,
 				96CCF369213D21D6002C00A6 /* WindowController.swift in Sources */,
 				962F2DF82130031300A83798 /* ORSSerialPortDemo-Bridging-Header.h in Sources */,
 				9668BC4F2130A9A50042BE99 /* SerialPortDemoController.swift in Sources */,
+				9667C449213F60950002C46C /* CalculationTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
